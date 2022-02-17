@@ -1,0 +1,22 @@
+@import "variables";
+
+*,
+*::after,
+*::before {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  box-sizing: border-box;
+  font-size: 1em;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
